@@ -207,7 +207,7 @@ int main()
                 else
                 {
                     bool revert = false;
-                    if (bad[0] > bad[1])
+                    if (bad[0] < bad[1])
                     {
                         if (twister.randInt(1000) > 200)
                         {
